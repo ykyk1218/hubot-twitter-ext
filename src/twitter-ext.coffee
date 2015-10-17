@@ -50,9 +50,7 @@ class Twitter extends Adapter
    bot.timeline "", (data, err) ->
      self.x +=1
      console.log "received #{data.text} from #{data.user.screen_name}"
-     msg = data.text.replace reg, self.robot.name
      tmsg = new TextMessage({user: data.user.screen_name, status_id: data.id_str}, data.text)
-
      self.receive tmsg
      if err
        console.log err
