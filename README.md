@@ -1,6 +1,6 @@
 # Hubot Twitter Ext
 
-hubot-twitterの拡張版
+hubot-twitterの拡張版  
 [https://github.com/MathildeLemee/hubot-twitter](https://github.com/MathildeLemee/hubot-twitter)
 
 ## 変更点
